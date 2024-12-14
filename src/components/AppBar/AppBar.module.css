@@ -1,0 +1,6 @@
+.header {
+  display: flex;
+  font-size: larger;
+  gap: 20px;
+  justify-content: space-between;
+}
