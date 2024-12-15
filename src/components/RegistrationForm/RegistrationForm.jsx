@@ -1,9 +1,9 @@
 import { useDispatch, useSelector } from "react-redux";
 import { register } from "../../redux/auth/operations";
 import { selectAuthError } from "../../redux/auth/selectors";
-import styles from "./RegisterForm.module.css";
+import styles from "./RegistrationForm.module.css";
 
-export const RegisterForm = () => {
+export const RegistrationForm = () => {
   const dispatch = useDispatch();
   const authError = useSelector(selectAuthError);
 
@@ -72,4 +72,4 @@ export const RegisterForm = () => {
   );
 };
 
-export default RegisterForm;
+export default RegistrationForm;
